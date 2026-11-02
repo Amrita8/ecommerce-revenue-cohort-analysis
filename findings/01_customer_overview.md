@@ -5,13 +5,15 @@
 **Subject:** Customer Base Exploration & Spending Insights  
 
 ## 1. Who Shops Here
-Our active customer base consists of **8,800 unique buyers** tracked across a historical transaction window spanning from **March 16, 2026, to June 14, 2026**. The data reveals a highly active marketplace characterized by a mix of one-time experimental buyers and highly dedicated repeat shoppers.
+Our active customer base consists of **8,800 unique buyers** captured across a historical window spanning from **March 16, 2026, to June 14, 2026**. The dataset captures a highly active commerce environment characterized by a broad spectrum of engagement—ranging from single-purchase experimental visitors to hyper-frequent repeat shoppers. 
 
 ## 2. How Much They Spend
-Customer-level spending exhibits a **strong positive skew**. While the **mean spend** per customer sits at roughly **₹33,949**, the **median spend** is substantially lower at **₹11,678**. This divergence highlights that traditional averages hide critical consumer behavior nuances: the vast majority of our buyers maintain modest lifetime values, while a small, highly lucrative tier of power shoppers drives a disproportionate share of total revenue (with top spenders reaching upwards of ₹1.45 million). Similarly, while the median customer places just **1 order**, top-tier buyers reach up to **178 orders**.
+Customer spending exhibits an **extreme positive skew**. While the mathematical **mean spend** sits at roughly **₹33,949**, the **median spend** is notably lower at **₹11,678**. This wide divergence highlights that a traditional "average customer" metric is heavily distorted by high-net-worth power shoppers:
+* **Order Frequency:** The median customer places **1 order**, while top-tier outliers reach up to **178 orders**.
+* **Monetary Value:** While 75% of customers spend under ₹38,243, top spenders scale past **₹1.45 million**.
 
 ## 3. What I Noticed (Key Observations)
-* **The Pareto Effect / Skewed Distribution:** A small fraction of customers account for extraordinary order frequency and monetary value. Treating all customers as "average" will misdirect future acquisition and retention budgets.
-* **Recency & Engagement Windows:** The 3-month window provides a clear baseline for active customer lifecycles, establishing a solid foundation to segment users by purchase frequency in the upcoming milestone.
+* **The Pareto Dynamic:** A small minority of core buyers drive a disproportionate share of total revenue and order frequency. Treating the baseline user as "average" will misguide acquisition and retention strategies.
+* **The 90-Day Lifecycle Window:** The dataset provides a tight, recent 3-month operational window, making it ideal for establishing short-term cohort behavior and transition tracking.
 
-**Next Steps:** In the upcoming segmentation phase, we will cluster these buyers using RFM (Recency, Frequency, Monetary) modeling to separate casual browsers from core VIP revenue drivers.
+**Next Steps:** In Milestone 3, we will engineer formal Recency, Frequency, and Monetary (RFM) features to segment these buyers systematically.
